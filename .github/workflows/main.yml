@@ -1,8 +1,7 @@
 name: CI
 on:
-  pull_request:
-    branches:
-      - main
+  schedule:
+    - cron:  '*/15 * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
