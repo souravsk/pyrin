@@ -24,3 +24,4 @@ jobs:
           ls
           cd src
           ls
+          python3 start_unit.py
